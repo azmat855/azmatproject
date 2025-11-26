@@ -84,3 +84,13 @@ button{
   position: absolute;
   transform: translateX(259px);
 }
+
+@media screen and (max-width: 768px) {
+  button {
+    position: absolute;
+    transform: translateX(183px);
+  }
+  h1{
+    font-size: 20px;
+  }
+}
